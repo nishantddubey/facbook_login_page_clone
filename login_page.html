@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebooklogin</title>
+	<style> 
+		*
+		{
+			margin: 0px;
+		}
+		header
+		{
+			background-color: #101f78;
+			display: inline-block;
+		}
+		header>h1
+		{	
+			align-content: center;
+			float: left;
+			color: white;
+			font-size: 70px;
+			font-family: klavika;
+			padding-top:10px;
+			margin-left: 40px;
+		}
+		header>table
+		{	
+			align-items: center;
+			text-align: right;
+			color: white;
+			margin-left:800px;
+			float: right;
+			margin-top: -100px;
+			padding: 40px;
+		}
+		body
+		{
+			background:linear-gradient(90deg ,#e9f3f5, #b2d4db);
+		}
+		aside
+		{
+			display: inline-block;
+			padding-top: 20px;
+			color: #101f78;
+
+		}
+		#right
+		{	display: flex;
+			float: right;
+			margin-right:10px ;
+			margin-right: 200px;
+			display: inline-block;
+			
+
+		}
+		#left
+		{	display: flex;
+			display:block;
+			float: left;
+			font-size: 20px;
+		}
+		#image
+		{
+			width: 800px;
+			height: 300px;
+		}
+		#details
+		{
+			margin-left: 20px;
+		}
+		#signup
+		{
+			font-size: 20px;
+		}
+		#loginbox
+		{
+			background-color: #101f78;
+			color: white;
+		}	
+		.box
+		{
+			width: 200px;
+		}
+		#rightsection
+		{
+			padding: 18px;
+		}
+
+		#signupbutton
+		{
+			background-color: #049430;
+			color: white;
+		}
+		#leftsection
+		{
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Facebook</h1>
+		<table>
+			<tr>
+				<td><input type="checkbox" name="">Remember Me</td>
+				<td> Forgot your password?</td>
+			</tr>
+			<tr>
+				<td><input type="text" placeholder="Email"></td>
+				<td><input type="password" placeholder="Password"></td>
+				<td><input type="submit" value="Login" id="loginbox"></td>
+			</tr>
+		</table>
+	</header>
+<aside id="left">
+	<section >
+		<table id="leftsection">
+		<tr>
+			<td><h3>Facebook helps you connect and share with 
+				the people in your life.
+			</h3></td>	
+		</tr>
+		<tr><td><img src="facebookremoved.png" id="image"> </td></tr>
+		</table>
+		<table>
+		</table>
+	</section>
+</aside>
+	
+<aside id="right"><section>
+		<table id="rightsection">
+			<tr><td><h1>Sign Up</h1></td></tr>
+			<tr><td><h4>It's free and any one can join</h4></td></tr>
+			<table id="details">
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" class="box"></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" class="box"></td>
+
+				</tr>
+				<tr>
+					<td>Your Email:</td>
+					<td> <input type="Email" class="box"> </td>
+				</tr>
+				<tr> <td>New Password:</td>
+					<td><input type="password" class="box"></td>
+				</tr>
+				<tr>
+					<td>I am:</td>
+					<td>
+						<select>
+							<option>Select Sex</option>
+							<option>Male</option>
+							<option>Female</option>
+							<option>Others</option>
+						</select>
+					<td>
+				</tr>
+				<tr>
+					<td>Birthday</td>
+					<td><input type="Date"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>why do i need to provide this?</td></tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="signup" id="signupbutton"></td>
+				</tr>
+				<tr>
+					<td colspan="4">_______________________________________</td>
+				</tr>
+				<tr><td colspan="2">Create a page for a celebrity,band or business</td></tr>
+			</table>
+		</table>
+	</section>
+</aside>
+</body>
+</html>
